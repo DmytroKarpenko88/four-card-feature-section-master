@@ -47,4 +47,5 @@ body {
   letter-spacing: 0.015em;
 
   background-color: var(--color-bg-color);
+  color: var(--color-Grey-500);
 }

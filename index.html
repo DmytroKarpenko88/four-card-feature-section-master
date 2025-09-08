@@ -29,28 +29,36 @@
   <body>
     <main class="flex items-center justify-center">
       <section>
-        <div class="max-w-[375px] py-[24px] px-[32px]">
+        <div class="max-w-[375px] xl:max-w-full py-[24px] px-[32px]">
           <div class="text-center">
-            <p class="text-2xl font-extralight mt-[33px]">
+            <p
+              class="text-2xl font-extralight mt-[33px] xl:mt-[84px] xl:text-4xl"
+            >
               Reliable, efficient delivery
             </p>
-            <h1 class="text-2xl font-semibold mt-[2px]">
+            <h1
+              class="text-2xl font-semibold mt-[2px] xl:mt-[10px] xl:text-4xl"
+            >
               Powered by Technology
             </h1>
             <p
-              class="mt-[17px] font-extralight tracking-[0.02em] leading-[21px]"
+              class="mt-[17px] font-extralight tracking-[0.02em] leading-[21px] xl:mt-[20px] xl:mx-auto xl:max-w-[540px]"
             >
               Our Artificial Intelligence powered tools use millions of project
               data points to ensure that your project is successful
             </p>
           </div>
 
-          <ul class="flex flex-col mt-[60px] gap-8">
-            <li
-              class="w-[312px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Cyan py-7 px-8 relative shadow-card"
+          <div
+            class="flex flex-col xl:flex-row mt-[60px] xl:mt-[74px] gap-8 xl:items-center"
+          >
+            <div
+              class="w-[312px] xl:w-[350px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Cyan py-7 px-8 relative shadow-card"
             >
               <h2 class="text-xl">Supervisor</h2>
-              <p class="text-xs mt-[6px] tracking-[0.045em] leading-5">
+              <p
+                class="text-xs mt-[5px] tracking-[0.06em] leading-[21px] font-extralight"
+              >
                 Monitors activity to identify project roadblocks
               </p>
               <img
@@ -58,40 +66,46 @@
                 alt="icon-supervisor"
                 class="absolute bottom-[47px] right-[31px]"
               />
-            </li>
-            <li
-              class="w-[312px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Red py-7 px-8 relative shadow-card"
-            >
-              <h2 class="text-xl">Team Builder</h2>
-              <p class="text-xs mt-[6px] tracking-[0.045em] leading-5">
-                Scans our talent network to create the optimal team for your
-                project
-              </p>
-              <img
-                src="./images/icon-team-builder.svg"
-                alt="icon-team-builder"
-                class="absolute bottom-[47px] right-[31px]"
-              />
-            </li>
-            <li
-              class="w-[312px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Orange py-7 px-8 relative shadow-card"
-            >
-              <h2 class="text-xl">Karma</h2>
-              <p class="text-xs mt-[6px] tracking-[0.045em] leading-5">
-                Regularly evaluates our talent to ensure quality
-              </p>
-              <img
-                src="./images/icon-karma.svg"
-                alt="icon-karma"
-                class="absolute bottom-[47px] right-[31px]"
-              />
-            </li>
-            <li
-              class="w-[312px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Blue py-7 px-8 relative shadow-card"
+            </div>
+            <div class="flex flex-col gap-8">
+              <div
+                class="w-[312px] xl:w-[350px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Red py-7 px-8 relative shadow-card"
+              >
+                <h2 class="text-xl">Team Builder</h2>
+                <p
+                  class="text-xs mt-[5px] tracking-[0.06em] leading-[21px] font-extralight"
+                >
+                  Scans our talent network to create the optimal team for your
+                  project
+                </p>
+                <img
+                  src="./images/icon-team-builder.svg"
+                  alt="icon-team-builder"
+                  class="absolute bottom-[47px] right-[31px]"
+                />
+              </div>
+              <div
+                class="w-[312px] xl:w-[350px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Orange py-7 px-8 relative shadow-card"
+              >
+                <h2 class="text-xl">Karma</h2>
+                <p
+                  class="text-xs mt-[5px] tracking-[0.06em] leading-[21px] font-extralight"
+                >
+                  Regularly evaluates our talent to ensure quality
+                </p>
+                <img
+                  src="./images/icon-karma.svg"
+                  alt="icon-karma"
+                  class="absolute bottom-[47px] right-[31px]"
+                />
+              </div>
+            </div>
+            <div
+              class="w-[312px] xl:w-[350px] h-[250px] bg-White rounded-[4px] border-t-4 border-t-Blue py-7 px-8 relative shadow-card"
             >
               <h2 class="text-xl">Calculator</h2>
-              <p class="text-xs mt-[6px] tracking-[0.045em] leading-5">
-                Uses data from past projects to provide better delivery
+              <p   class="text-xs mt-[5px] tracking-[0.06em] leading-[21px] font-extralight"">
+                Uses data from past projects to provide better dedivvery
                 estimates
               </p>
               <img
@@ -99,8 +113,8 @@
                 alt="icon-calculator"
                 class="absolute bottom-[47px] right-[31px]"
               />
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
